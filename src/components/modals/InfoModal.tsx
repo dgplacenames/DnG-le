@@ -56,6 +56,8 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter R is not in the place-name in any spot.
       </p>
+      <p>
+      </p>
       <p className="text-sm text-gray-500 dark:text-gray-300"> Never heard of the place? <a
           href="https://geo.nls.uk/maps/gb1900/#zoom=6&lat=55.0000&lon=-2.5000&layer=0"
           className="underline font-bold"
@@ -63,7 +65,6 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           Click here and type in the answer to see it on the map.
         </a>{' '}
       </p>
-  
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
         This is an open source version Worlde -{' '}
         <a
