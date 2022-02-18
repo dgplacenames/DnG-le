@@ -10,8 +10,8 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        Guess the Dumfries and Galloway place-name in 6 tries. After each guess, the color of the tiles will
+        change to show how close your guess was to the word. English words and Scottish place-names outwith D&G are accepted as guesses.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -21,50 +21,58 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           value="W"
           status="correct"
         />
-        <Cell value="E" />
-        <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="H" />
+        <Cell value="I" />
+        <Cell value="N" />
+        <Cell value="G" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter W is in the word and in the correct spot.
+        The letter W is in the place-name and in the correct spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="P" />
-        <Cell value="I" />
+        <Cell value="R" />
+        <Cell value="U" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="L"
+          value="S"
           status="present"
         />
+        <Cell value="C" />
         <Cell value="O" />
-        <Cell value="T" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is in the word but in the wrong spot.
+        The letter S is in the place-name but in the wrong spot.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
+        <Cell value="D" />
         <Cell value="A" />
-        <Cell value="G" />
-        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
-        <Cell value="E" />
+        <Cell value="L" />
+        <Cell isRevealing={true} isCompleted={true} value="R" status="absent" />
+        <Cell value="Y" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter U is not in the word in any spot.
+        The letter R is not in the place-name in any spot.
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
+        This is an open source version Worlde -{' '}
         <a
-          href="https://github.com/cwackerfuss/react-wordle"
+          href="https://github.com/dgplacenames/DnG-le"
           className="underline font-bold"
         >
-          check out the code here
+          click here for the code and credits
+        </a>{' '}
+      </p>
+      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
+        {' '}
+        <a
+          href="https://twitter.com/dgplacenames"
+          className="underline font-bold"
+        >
+          @dgplacenames
         </a>{' '}
       </p>
     </BaseModal>
