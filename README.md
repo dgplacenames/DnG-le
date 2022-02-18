@@ -7,3 +7,5 @@ There are 132 place-names to chose from. (English words and place-names outwith 
 Never heard of the place? Type the answer into the [National Library of Scotland's GB1900 viewer](https://geo.nls.uk/maps/gb1900/#zoom=6&lat=55.0000&lon=-2.5000&layer=0) to see it on the map.
 
 Play the game here: https://dng-le.vercel.app/
+
+"4 out of 5 stars" - my brother-in-law.
