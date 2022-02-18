@@ -10,7 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the Dumfries and Galloway place-name in 6 tries. After each guess, the color of the tiles will
+        Guess the Dumfries and Galloway place-name in 6 tries. After each guess, the colour of the tiles will
         change to show how close your guess was to the word. (English words and Scottish place-names outwith D&G are accepted as guesses.)
       </p>
       
@@ -66,12 +66,12 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         </a>{' '}
       </p>
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version Worlde -{' '}
+        This is an open source version of Worlde -{' '}
         <a
           href="https://github.com/dgplacenames/DnG-le"
           className="underline font-bold"
         >
-          click here for the code and credits
+          click here for the code and credits.
         </a>{' '}
       </p>
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
