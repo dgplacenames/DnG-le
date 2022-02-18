@@ -56,7 +56,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter R is not in the place-name in any spot.
       </p>
-    
+      <p>&nbsp;</p>
       <p className="text-sm text-gray-500 dark:text-gray-300"> 
         Never heard of the place? {' '}
         <a
@@ -67,7 +67,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         </a>{' '}
       </p>
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of Worlde -{' '}
+        This is an open source version of Wordle -{' '}
         <a
           href="https://github.com/dgplacenames/DnG-le"
           className="underline font-bold"
