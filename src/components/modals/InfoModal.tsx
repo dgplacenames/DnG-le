@@ -11,15 +11,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the Dumfries and Galloway place-name in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word. English words and Scottish place-names outwith D&G are accepted as guesses.
-      </p>
-      
-    <p className="text-sm text-gray-500 dark:text-gray-300"> Never heard of the place? <a
-          href="https://geo.nls.uk/maps/gb1900/#zoom=6&lat=55.0000&lon=-2.5000&layer=0"
-          className="underline font-bold"
-        >
-          Click here and type in the answer to see it on the map.
-        </a>{' '}
+        change to show how close your guess was to the word. (English words and Scottish place-names outwith D&G are accepted as guesses.)
       </p>
       
       <div className="flex justify-center mb-1 mt-4">
@@ -64,7 +56,15 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter R is not in the place-name in any spot.
       </p>
-
+      <p className="text-sm text-gray-500 dark:text-gray-300"> Never heard of the place? <a
+          href="https://geo.nls.uk/maps/gb1900/#zoom=6&lat=55.0000&lon=-2.5000&layer=0"
+          className="underline font-bold"
+        >
+          Click here and type in the answer to see it on the map.
+        </a>{' '}
+      </p>
+      <p>
+      </p>
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
         This is an open source version Worlde -{' '}
         <a
