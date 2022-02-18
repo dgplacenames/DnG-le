@@ -13,7 +13,15 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         Guess the Dumfries and Galloway place-name in 6 tries. After each guess, the color of the tiles will
         change to show how close your guess was to the word. English words and Scottish place-names outwith D&G are accepted as guesses.
       </p>
-
+      
+    <p className="text-sm text-gray-500 dark:text-gray-300"> Never heard of the place? <a
+          href="https://geo.nls.uk/maps/gb1900/#zoom=6&lat=55.0000&lon=-2.5000&layer=0"
+          className="underline font-bold"
+        >
+          Click here and type in the answer to see it on the map.
+        </a>{' '}
+      </p>
+      
       <div className="flex justify-center mb-1 mt-4">
         <Cell
           isRevealing={true}
