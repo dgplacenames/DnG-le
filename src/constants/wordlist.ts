@@ -33,7 +33,6 @@ export const WORDS = [
 'clone',
 'kells',
 'largs',
-'caves',
 'fosse',
 'grain',
 'toull',
