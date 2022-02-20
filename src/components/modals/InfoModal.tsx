@@ -11,7 +11,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the Dumfries and Galloway place-name in 6 tries. After each guess, the colour of the tiles will
-        change to show how close your guess was to the word. (English words and Scottish place-names outwith D&G are accepted as guesses.)
+        change to show how close your guess was to the place-name. (English words and Scottish place-names outwith D&G are accepted as guesses.)
       </p>
       
       <div className="flex justify-center mb-1 mt-4">
@@ -61,18 +61,18 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         Never heard of the place? {' '}
         <a
           href="https://geo.nls.uk/maps/gb1900/#zoom=6&lat=55.0000&lon=-2.5000&layer=0"
-          className="underline font-bold"
+          className="mt-6 italic text-sm text-gray-500 dark:text-gray-300"
         >
           Click here and type in the answer to see it on the map.
         </a>{' '}
       </p>
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of Wordle -{' '}
+        This is an open source version of Wordle. {' '}
         <a
           href="https://github.com/dgplacenames/DnG-le"
           className="underline font-bold"
         >
-          click here for the code and credits.
+          Click here for the code and credits.
         </a>{' '}
       </p>
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
