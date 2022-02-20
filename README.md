@@ -9,3 +9,6 @@ Never heard of the place? Type the answer into the [National Library of Scotland
 Play the game here: https://dng-le.vercel.app/
 
 "4 out of 5 stars" - my brother-in-law.
+<p align="center">
+<img src="/DnG-le%20Answer%20Map.png" width="600">
+</p>
