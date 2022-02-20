@@ -66,6 +66,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           Click here and type in the answer to see it on the map.
         </a>{' '}
       </p>
+      <p>&nbsp;</p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         This is an open source version of Wordle. {' '}
         <a
@@ -75,6 +76,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           Click here for the code and credits.
         </a>{' '}
       </p>
+      <p>&nbsp;</p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         {' '}
         <a
