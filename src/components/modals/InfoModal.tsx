@@ -56,7 +56,36 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter R is not in the place-name in any spot.
       </p>
-    
+      <p>&nbsp;</p>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        Never heard of the place? {' '}
+        <a
+          href="https://geo.nls.uk/maps/gb1900/#zoom=6&lat=55.0000&lon=-2.5000&layer=0"
+          className="underline font-bold"
+        >
+          Click here and type in the answer to see it on the map.
+        </a>{' '}
+      </p>
+      <p>&nbsp;</p>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        This is an open source version of Wordle. {' '}
+        <a
+          href="https://github.com/dgplacenames/DnG-le"
+          className="underline font-bold"
+        >
+          Click here for the code and credits.
+        </a>{' '}
+      </p>
+      <p>&nbsp;</p>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        {' '}
+        <a
+          href="https://twitter.com/dgplacenames"
+          className="underline font-bold"
+        >
+          @dgplacenames
+        </a>{' '}
+      </p>
     </BaseModal>
   )
 }
